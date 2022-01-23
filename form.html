@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="he">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>הצטרפות למועדון</title>
+    <link rel="stylesheet" href="form-page-style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+  </head>
+  <body>
+        <header class="header">
+     <div class="links">
+        <a class="general-links
+        " href="index.html">דף הבית</a>
+        <a class="general-links
+        " href="electronics.html">מחלקת אלקטרוניקה</a>
+        <a class="general-links
+        " href="vegtabels.html">פירות וירקות</a>
+        <a class="general-links
+        " href="cosmetics.html">קוסמטיקה</a>
+        <a class="general-links
+        " href="form.html">חבר מועדון</a>
+     </div><br>
+    </header>
+    <h2>להצטרפות למועדון הכנס את הפרטים</h2>
+    <div class="row">
+    <form action="">
+      <label for="pname">שם פרטי</label>
+      <input type="text" id="pname" name="pname" placeholder="יקיר" />
+      <br />
+      <label for="lname">שם משפחה</label>
+      <input type="text" id="lname" name="lname" placeholder="ברקוביץ" />
+      <br />
+      <label for="idnumber">מספר ת.ז </label>
+      <input type="number" id="idnumber" name="idnumber"  />
+      <br />
+      <label for="birthday">תאריך לידה </label>
+      <input type="date" id="birthday" name="birthday"  />
+      <Br>
+      <label for="tel">טלפון</label>
+      <input type="tel" id="tel" name="tel" placeholder="053-000-0000" />
+      <br />
+      <label for="email">אימייל</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="srulychaimo@gmail.com"
+        required
+      />
+      <br />
+        <label for="pwd">בחר סיסמא:</label>
+  <input type="password" id="pwd" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="חייב להכיל 8 תווים לפחות אות אחת גדולה אות אחת קטנה ומספר">
+
+      <h3>אני מעוניין לקבל עידכונים על מוצרי:</h3>
+      <!--checkbox-->
+      <input type="checkbox" id="check1" name="check1" />
+      <label for="check1">מוצרי חלב</label>
+      <br />
+      <input type="checkbox" id="check2" name="check2" />
+      <label for="check2">מוצרי בשר</label>
+      <br />
+      <input type="checkbox" id="check3" name="check3" />
+      <label for="check3">מוצרי אפייה</label>
+      <br />
+      <input type="checkbox" id="check4" name="check4" />
+      <label for="check4">מוצרי חד פעמי</label>
+      <br />
+      <input type="checkbox" id="check5" name="check5" />
+      <label for="check5">מוצרי ניקיון </label>
+      <br />
+     
+    </div>
+<div class="row">
+      <h3>כתובת למשלוחים</h3>
+
+      <!-- select box -->
+      <label for="country">עיר מגורים</label>
+      <select name="country" id="country">
+        <option value="select city">בחר עיר</option>
+        <option value="TLV">תל אביב</option>
+        <option value="Herzliya">הרצליה</option>
+        <option value="ramla">רמלה</option>
+        <option value="jerusalem">ירושלים</option>
+        <option value="ashdod">אשדוד</option>
+      </select>
+      <br>
+
+      <label for="street">שם רחוב</label>
+      <input
+        type="text"
+        id="street"
+        name="street"
+        placeholder="השופטים"
+        required
+      />
+      <br />
+      <label for="apt">מספר דירה</label>
+      <input type="number" id="apt" name="apt" max="200" />
+      <br />
+      <label for="zip">מיקוד</label>
+      <input type="number" id="zip" name="zip" maxlength="7" minlength="4" />
+      <br />
+      <textarea name="הערות" id="" cols="20" rows="3" placeholder="הערות לשליח"></textarea>
+    </div>
+    <div class="row">
+      <h3>פרטי תשלום</h3>
+      <label for="ccname">שם בעל הכרטיס</label>
+      <input type="text" id="ccname" name="ccname" />
+
+      <label for="ccnum">מספר כרטיס</label>
+      <input
+        type="number"
+        id="ccnum"
+        name="ccnum"
+        minlength="12"
+        maxlength="12"
+        required
+      />
+      <label for="ccexp">תוקף הכרטיס</label>
+      <input type="month" id="ccexp" name="ccexp" />
+
+      <label for="ccv">CCV</label>
+      <input type="password" id="ccv" name="ccv" minlength="3" maxlength="4" />
+      
+    </div>
+    <br>
+    <input class="kaftor" type="submit" value="הצטרף למועדון">
+    </form>
+  </body>
+</html>

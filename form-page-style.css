@@ -1,0 +1,88 @@
+body {
+  font-family: "Bellefair", serif;
+  direction: rtl;
+  background-image: linear-gradient(rgb(255, 255, 255), #00c3ff1f);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 1.7em;
+}
+.header {
+  border: 0px #d31242 solid;
+  box-shadow: 0 5px 10px #d31242;
+  border-radius: 20px;
+  background-image: url(https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/cmscontent/h0a/h25/9038554038302);
+  background-repeat: no-repeat;
+  background-size: 200px;
+  text-align: right;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.general-links {
+  text-decoration: none;
+  box-shadow: 0 2px 5px #d31242;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  letter-spacing: 5px;
+  text-shadow: 0 1px 2px white;
+  color: #d31242;
+}
+.general-links:hover {
+  background-image: url(img/bluebackground.jpg);
+  letter-spacing: 6px;
+  opacity: 0.8;
+}
+
+.box1 {
+  background-color: linear-gradient;
+  width: 50vw;
+  display: inline-block;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #cacaca;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+}
+
+input,
+select {
+  margin-inline-start: 0.8vw;
+  margin-block-end: 1vh;
+  height: 3vh;
+}
+.kaftor {
+  color: white;
+  background-color: #40a8c4;
+  width: 15vw;
+  margin-left: 31%;
+  height: 30px;
+  font-family: sans-serif;
+  font-size: 16px;
+  border: outset 3px silver;
+}

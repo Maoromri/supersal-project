@@ -1,0 +1,85 @@
+body {
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Varela Round", sans-serif;
+}
+
+header {
+  text-align: center;
+  font-size: 2em;
+}
+
+.row {
+  display: flex;
+  text-align: center;
+  margin-block-start: 100px;
+}
+
+.column {
+  margin: 0px 30px 0px 30px;
+  width: 28%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+img:hover {
+  transform: scale(1.1);
+  border: black 1px solid;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:active {
+  color: black;
+}
+
+.product-img {
+  border-radius: 30px;
+}
+
+.header {
+  border: 0px #d31242 solid;
+  box-shadow: 0 5px 10px #d31242;
+  border-radius: 20px;
+  background-image: url(https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/cmscontent/h0a/h25/9038554038302);
+  background-repeat: no-repeat;
+  background-size: 200px;
+  text-align: right;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.general-links {
+  margin-inline-end: 30px;
+  text-decoration: none;
+  box-shadow: 0 2px 5px #d31242;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  letter-spacing: 5px;
+  text-shadow: 0 1px 2px white;
+  color: #d31242;
+}
+
+.general-links:hover {
+  background-image: url(img/bluebackground.jpg);
+  letter-spacing: 6px;
+  opacity: 0.8;
+}
+
+.btn {
+  border-radius: 10px;
+  background-color: #0071dc;
+  color: white;
+  cursor: pointer;
+}
